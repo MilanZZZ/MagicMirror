@@ -1,0 +1,8 @@
+
+cd ./MagicMirror
+DISPLAY=:0 npm start
+
+sudo chvt 9
+sudo chvt 7
+cd ./MagicMirror
+python3 pali_gasi.py
